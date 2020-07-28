@@ -3,6 +3,7 @@ def gem_config(conf)
 
   # be sure to include this gem (the cli app)
   conf.gem File.expand_path(File.dirname(__FILE__))
+  conf.gem core: 'mruby-print'
   conf.gem core: 'mruby-sprintf'
   conf.gem core: 'mruby-time'
   conf.gem mgem: 'mruby-simple-random'
